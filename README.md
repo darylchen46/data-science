@@ -1,23 +1,43 @@
+Instructions
 
-#### We're in the process of adapting these notebooks into interactive projects in [DataWars](https://www.datawars.io/?utm_source=fccrepo&utm_medium=jupyter-tutorial). Sign up now, it's [completely free](https://www.datawars.io/?utm_source=fccrepo&utm_medium=jupyter-tutorial).
+Step 1: Open the Terminal and authenticate using gh (Github CLI):
+"gh auth login"
 
-Stay tuned! Have any questions? [Join our Discord](https://discord.gg/DSTe8tY38T)
+Step 2: Create an authentication token in your Github account with specified scopes given in the terminal. Copy it from Github and paste it. Verify authorization was successful.
 
----
+Step 3: Visit the class repo and click the fork button.
 
-Created by Santiago Basulto. Connect with me on [X](https://x.com/santiagobasulto) or [LinkedIn](https://www.linkedin.com/in/santiagobasulto/)
+Step 4: Clone the repository using the GitHub CLI command.
+"gh repo clone <YOUR USERNAME>/<REPOSITORY-NAME> "
 
----
+Step 5: Move to the repo directory by using "cd <REPOSITORY-NAME>"
 
-### Jupyter Notebooks Tutorial
+Step 6: Open the file named "class.txt"
 
-This is a quick tutorial about Jupyter Notebooks. To open it, we recommend you to use Google Colab. You'll need a free Google account to do so.
+Step 7: Replace the content of the file with the contents below.
 
-Once you have your account, go to [https://colab.research.google.com/](https://colab.research.google.com/) and follow these steps:
+Crimson
+Orange
+Blue
+Cyan
+Yellow
+Charcoal
+Khaki
+Coral
+Silver
+Fuchsia
+Purple
+Brown
+Red
 
-1. Select **Github** on the left side selector (other options include Recent, Google Drive, Upload). Choose **Github**.
-2. On the text input that says Github URL put the URL of this repo: `https://github.com/rmotr-curriculum/ds-content-interactive-jupyterlab-tutorial`.
-3. Wait a few seconds and you'll see two Notebooks being populated in the screen.
-4. Click on the Notebook name `Tutorial.ipynb` to open it.
+Step 8: Save the file
 
-<img width="1888" alt="image" src="https://github.com/rmotr-curriculum/ds-content-interactive-jupyterlab-tutorial/assets/872296/ff419d94-2e15-44c4-a86f-2f90279bd220">
+Step 9: Using the diff command, note which lines were deleted and which lines were added.
+"git diff"
+ 
+Step 10: Add the file and commit it to the repository with a message.
+"git add class.txt"
+"git commit"
+
+Step 11: Push the commit to the forked repository.
+"git push" 
